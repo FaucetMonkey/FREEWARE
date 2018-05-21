@@ -1,0 +1,397 @@
+Need to speed up your computer? 
+WatchNET watches your network connections, with this tool you can correctly identify networks that are slowing your computer down. (such as microsoft and doubleclick) 
+
+
+To block these sites and speed up your online experience, or even make games run smoothly, follow these instructions:-
+
+1. Hold Windows button and press 's' and type notepad.
+     (If your using an older machine open Start Menu>Accessories and right click on Notepad)
+    When Notepad appears in the search Right click on it and
+    Press 'Run as Administrator'.
+
+2. Click File>Open (in Notepad) and navigate to
+   C:\Windows\System32\drivers\etc
+    Above the Open Button is a button to select 'files of type' 
+    It says 'Text Documents *.txt' 
+    Click this and select 'All files *.*'
+
+3. You will now be able to see the 'hosts' file.
+    Select it and open it.
+
+It will look like this:-
+
+
+# Copyright (c) 1993-2009 Microsoft Corp.
+#
+# This is a sample HOSTS file used by Microsoft TCP/IP for Windows.
+#
+# This file contains the mappings of IP addresses to host names. Each
+# entry should be kept on an individual line. The IP address should
+# be placed in the first column followed by the corresponding host name.
+# The IP address and the host name should be separated by at least one
+# space.
+#
+# Additionally, comments (such as these) may be inserted on individual
+# lines or following the machine name denoted by a '#' symbol.
+#
+# For example:
+#
+#      102.54.94.97     rhino.acme.com          # source server
+#       38.25.63.10     x.acme.com              # x client host
+
+# localhost name resolution is handled within DNS itself.
+#	127.0.0.1       localhost
+#	::1             localhost
+
+
+
+
+Ok NOW COPY THE TEXT BELOW
+
+
+0.0.0.0 *.wns.windows.com
+0.0.0.0 13.107.5.88
+0.0.0.0 40.77.229.0
+0.0.0.0 40.77.229.1
+0.0.0.0 40.77.229.2
+0.0.0.0 40.77.229.3
+0.0.0.0 40.77.229.4
+0.0.0.0 40.77.229.5
+0.0.0.0 40.77.229.6
+0.0.0.0 40.77.229.7
+0.0.0.0 40.77.229.8
+0.0.0.0 40.77.229.9
+0.0.0.0 40.77.229.10
+0.0.0.0 40.77.229.11
+0.0.0.0 40.77.229.12
+0.0.0.0 40.77.229.13
+0.0.0.0 40.77.229.14
+0.0.0.0 40.77.229.15
+0.0.0.0 40.77.229.16
+0.0.0.0 40.77.229.17
+0.0.0.0 40.77.229.18
+0.0.0.0 40.77.229.19
+0.0.0.0 40.77.229.20
+0.0.0.0 40.77.229.21
+0.0.0.0 40.77.229.22
+0.0.0.0 40.77.229.23
+0.0.0.0 40.77.229.24
+0.0.0.0 40.77.229.25
+0.0.0.0 40.77.229.26
+0.0.0.0 40.77.229.27
+0.0.0.0 40.77.229.28
+0.0.0.0 40.77.229.29
+0.0.0.0 40.77.229.30
+0.0.0.0 40.77.229.31
+0.0.0.0 40.77.229.32
+0.0.0.0 40.77.229.33
+0.0.0.0 40.77.229.34
+0.0.0.0 40.77.229.35
+0.0.0.0 40.77.229.36
+0.0.0.0 40.77.229.37
+0.0.0.0 40.77.229.38
+0.0.0.0 40.77.229.39
+0.0.0.0 40.77.229.40
+0.0.0.0 40.77.229.41
+0.0.0.0 40.77.229.42
+0.0.0.0 40.77.229.43
+0.0.0.0 40.77.229.44
+0.0.0.0 40.77.229.45
+0.0.0.0 40.77.229.46
+0.0.0.0 40.77.229.47
+0.0.0.0 40.77.229.48
+0.0.0.0 40.77.229.49
+0.0.0.0 40.77.229.50
+0.0.0.0 40.77.229.51
+0.0.0.0 40.77.229.52
+0.0.0.0 40.77.229.53
+0.0.0.0 40.77.229.54
+0.0.0.0 40.77.229.55
+0.0.0.0 40.77.229.56
+0.0.0.0 40.77.229.57
+0.0.0.0 40.77.229.58
+0.0.0.0 40.77.229.59
+0.0.0.0 40.77.229.60
+0.0.0.0 40.77.229.61
+0.0.0.0 40.77.229.62
+0.0.0.0 40.77.229.63
+0.0.0.0 40.77.229.64
+0.0.0.0 40.77.229.65
+0.0.0.0 40.77.229.66
+0.0.0.0 40.77.229.67
+0.0.0.0 40.77.229.68
+0.0.0.0 40.77.229.69
+0.0.0.0 40.77.229.70
+0.0.0.0 40.77.229.71
+0.0.0.0 40.77.229.72
+0.0.0.0 40.77.229.73
+0.0.0.0 40.77.229.74
+0.0.0.0 40.77.229.75
+0.0.0.0 40.77.229.76
+0.0.0.0 40.77.229.77
+0.0.0.0 40.77.229.78
+0.0.0.0 40.77.229.79
+0.0.0.0 40.77.229.80
+0.0.0.0 40.77.229.81
+0.0.0.0 40.77.229.82
+0.0.0.0 40.77.229.83
+0.0.0.0 40.77.229.84
+0.0.0.0 40.77.229.85
+0.0.0.0 40.77.229.86
+0.0.0.0 40.77.229.87
+0.0.0.0 40.77.229.88
+0.0.0.0 40.77.229.89
+0.0.0.0 40.77.229.90
+0.0.0.0 40.77.229.91
+0.0.0.0 40.77.229.92
+0.0.0.0 40.77.229.93
+0.0.0.0 40.77.229.94
+0.0.0.0 40.77.229.95
+0.0.0.0 40.77.229.96
+0.0.0.0 40.77.229.97
+0.0.0.0 40.77.229.98
+0.0.0.0 40.77.229.99
+0.0.0.0 40.77.229.100
+0.0.0.0 40.77.229.101
+0.0.0.0 40.77.229.102
+0.0.0.0 40.77.229.103
+0.0.0.0 40.77.229.104
+0.0.0.0 40.77.229.105
+0.0.0.0 40.77.229.106
+0.0.0.0 40.77.229.107
+0.0.0.0 40.77.229.108
+0.0.0.0 40.77.229.109
+0.0.0.0 40.77.229.110
+0.0.0.0 40.77.229.111
+0.0.0.0 40.77.229.112
+0.0.0.0 40.77.229.113
+0.0.0.0 40.77.229.114
+0.0.0.0 40.77.229.115
+0.0.0.0 40.77.229.116
+0.0.0.0 40.77.229.117
+0.0.0.0 40.77.229.118
+0.0.0.0 40.77.229.119
+0.0.0.0 40.77.229.120
+0.0.0.0 40.77.229.121
+0.0.0.0 40.77.229.122
+0.0.0.0 40.77.229.123
+0.0.0.0 40.77.229.124
+0.0.0.0 40.77.229.125
+0.0.0.0 40.77.229.126
+0.0.0.0 40.77.229.127
+0.0.0.0 40.77.229.128
+0.0.0.0 40.77.229.129
+0.0.0.0 40.77.229.130
+0.0.0.0 40.77.229.131
+0.0.0.0 40.77.229.132
+0.0.0.0 40.77.229.133
+0.0.0.0 40.77.229.134
+0.0.0.0 40.77.229.135
+0.0.0.0 40.77.229.136
+0.0.0.0 40.77.229.137
+0.0.0.0 40.77.229.138
+0.0.0.0 40.77.229.139
+0.0.0.0 40.77.229.140
+0.0.0.0 40.77.229.141
+0.0.0.0 40.77.229.142
+0.0.0.0 40.77.229.143
+0.0.0.0 40.77.229.144
+0.0.0.0 40.77.229.145
+0.0.0.0 40.77.229.146
+0.0.0.0 40.77.229.147
+0.0.0.0 40.77.229.148
+0.0.0.0 40.77.229.149
+0.0.0.0 40.77.229.150
+0.0.0.0 40.77.229.151
+0.0.0.0 40.77.229.152
+0.0.0.0 40.77.229.153
+0.0.0.0 40.77.229.154
+0.0.0.0 40.77.229.155
+0.0.0.0 40.77.229.156
+0.0.0.0 40.77.229.157
+0.0.0.0 40.77.229.158
+0.0.0.0 40.77.229.159
+0.0.0.0 40.77.229.160
+0.0.0.0 40.77.229.161
+0.0.0.0 40.77.229.162
+0.0.0.0 40.77.229.163
+0.0.0.0 40.77.229.164
+0.0.0.0 40.77.229.165
+0.0.0.0 40.77.229.166
+0.0.0.0 40.77.229.167
+0.0.0.0 40.77.229.168
+0.0.0.0 40.77.229.169
+0.0.0.0 40.77.229.170
+0.0.0.0 40.77.229.171
+0.0.0.0 40.77.229.172
+0.0.0.0 40.77.229.173
+0.0.0.0 40.77.229.174
+0.0.0.0 40.77.229.175
+0.0.0.0 40.77.229.176
+0.0.0.0 40.77.229.177
+0.0.0.0 40.77.229.178
+0.0.0.0 40.77.229.179
+0.0.0.0 40.77.229.180
+0.0.0.0 40.77.229.181
+0.0.0.0 40.77.229.182
+0.0.0.0 40.77.229.183
+0.0.0.0 40.77.229.184
+0.0.0.0 40.77.229.185
+0.0.0.0 40.77.229.186
+0.0.0.0 40.77.229.187
+0.0.0.0 40.77.229.188
+0.0.0.0 40.77.229.189
+0.0.0.0 40.77.229.190
+0.0.0.0 40.77.229.191
+0.0.0.0 40.77.229.192
+0.0.0.0 40.77.229.193
+0.0.0.0 40.77.229.194
+0.0.0.0 40.77.229.195
+0.0.0.0 40.77.229.196
+0.0.0.0 40.77.229.197
+0.0.0.0 40.77.229.198
+0.0.0.0 40.77.229.199
+0.0.0.0 40.77.229.200
+0.0.0.0 40.77.229.201
+0.0.0.0 40.77.229.202
+0.0.0.0 40.77.229.203
+0.0.0.0 40.77.229.204
+0.0.0.0 40.77.229.205
+0.0.0.0 40.77.229.206
+0.0.0.0 40.77.229.207
+0.0.0.0 40.77.229.208
+0.0.0.0 40.77.229.209
+0.0.0.0 40.77.229.210
+0.0.0.0 40.77.229.211
+0.0.0.0 40.77.229.212
+0.0.0.0 40.77.229.213
+0.0.0.0 40.77.229.214
+0.0.0.0 40.77.229.215
+0.0.0.0 40.77.229.216
+0.0.0.0 40.77.229.217
+0.0.0.0 40.77.229.218
+0.0.0.0 40.77.229.219
+0.0.0.0 40.77.229.220
+0.0.0.0 40.77.229.221
+0.0.0.0 40.77.229.222
+0.0.0.0 40.77.229.223
+0.0.0.0 40.77.229.224
+0.0.0.0 40.77.229.225
+0.0.0.0 40.77.229.226
+0.0.0.0 40.77.229.227
+0.0.0.0 40.77.229.228
+0.0.0.0 40.77.229.229
+0.0.0.0 40.77.229.230
+0.0.0.0 40.77.229.231
+0.0.0.0 40.77.229.232
+0.0.0.0 40.77.229.233
+0.0.0.0 40.77.229.234
+0.0.0.0 40.77.229.235
+0.0.0.0 40.77.229.236
+0.0.0.0 40.77.229.237
+0.0.0.0 40.77.229.238
+0.0.0.0 40.77.229.239
+0.0.0.0 40.77.229.240
+0.0.0.0 40.77.229.241
+0.0.0.0 40.77.229.242
+0.0.0.0 40.77.229.243
+0.0.0.0 40.77.229.244
+0.0.0.0 40.77.229.245
+0.0.0.0 40.77.229.246
+0.0.0.0 40.77.229.247
+0.0.0.0 40.77.229.248
+0.0.0.0 40.77.229.249
+0.0.0.0 40.77.229.250
+0.0.0.0 40.77.229.251
+0.0.0.0 40.77.229.252
+0.0.0.0 40.77.229.253
+0.0.0.0 40.77.229.254
+0.0.0.0 40.77.229.255
+0.0.0.0 wns.windows.com
+0.0.0.0 a-0001.a-msedge.net
+0.0.0.0 a.ads1.msn.com
+0.0.0.0 a.ads2.msn.com
+0.0.0.0 ad.doubleclick.net
+0.0.0.0 adnexus.net
+0.0.0.0 adnxs.com
+0.0.0.0 ads.msn.com
+0.0.0.0 ads1.msads.net
+0.0.0.0 ads1.msn.com
+0.0.0.0 az361816.vo.msecnd.net
+0.0.0.0 az512334.vo.msecnd.net
+0.0.0.0 ca.telemetry.microsoft.com
+0.0.0.0 cache.datamart.windows.com
+0.0.0.0 choice.microsoft.com
+0.0.0.0 choice.microsoft.com.nsatc.net
+0.0.0.0 choice.microsoft.com.nstac.net
+0.0.0.0 compatexchange.cloudapp.net
+0.0.0.0 corp.sts.microsoft.com
+0.0.0.0 corpext.msitadfs.glbdns2.microsoft.com
+0.0.0.0 cs1.wpc.v0cdn.net
+0.0.0.0 db5sch101110510.wns.windows.com
+0.0.0.0 db5sch101110343.wns.windows.com
+0.0.0.0 db5sch101101426.wns.windows.com
+0.0.0.0 db3wns2011111.wns.windows.com
+0.0.0.0 df.telemetry.microsoft.com
+0.0.0.0 diagnostics.support.microsoft.com
+0.0.0.0 fe2.update.microsoft.com.akadns.net
+0.0.0.0 fe3.delivery.dsp.mp.microsoft.com.nsatc.net
+0.0.0.0 feedback.microsoft-hohm.com
+0.0.0.0 feedback.search.microsoft.com
+0.0.0.0 feedback.windows.com
+0.0.0.0 i1.services.social.microsoft.com
+0.0.0.0 i1.services.social.microsoft.com.nsatc.net
+0.0.0.0 msnbot-207-46-194-33.search.msn.com
+0.0.0.0 oca.telemetry.microsoft.com
+0.0.0.0 oca.telemetry.microsoft.com.nsatc.net
+0.0.0.0 pre.footprintpredict.com
+0.0.0.0 preview.msn.com
+0.0.0.0 rad.msn.com
+0.0.0.0 redir.metaservices.microsoft.com
+0.0.0.0 reports.wes.df.telemetry.microsoft.com
+0.0.0.0 s0.2mdn.net
+0.0.0.0 services.wes.df.telemetry.microsoft.com
+0.0.0.0 settings-sandbox.data.microsoft.com
+0.0.0.0 settings-win.data.microsoft.com
+0.0.0.0 settings.data.microsof.com
+0.0.0.0 sls.update.microsoft.com.akadns.net
+0.0.0.0 spynet2.microsoft.com
+0.0.0.0 spynetalt.microsoft.com
+0.0.0.0 sqm.df.telemetry.microsoft.com
+0.0.0.0 sqm.telemetry.microsoft.com
+0.0.0.0 sqm.telemetry.microsoft.com.nsatc.net
+0.0.0.0 ssw.live.com
+0.0.0.0 statsfe1.ws.microsoft.com
+0.0.0.0 statsfe2.update.microsoft.com.akadns.net
+0.0.0.0 statsfe2.ws.microsoft.com
+0.0.0.0 survey.watson.microsoft.com
+0.0.0.0 telecommand.telemetry.microsoft.com
+0.0.0.0 telecommand.telemetry.microsoft.com.nsatc.net
+0.0.0.0 telemetry.appex.bing.net
+0.0.0.0 telemetry.microsoft.com
+0.0.0.0 telemetry.urs.microsoft.com
+0.0.0.0 v10.vortex-win.data.microsoft.com
+0.0.0.0 view.atdmt.com
+0.0.0.0 vortex-sandbox.data.microsoft.com
+0.0.0.0 vortex-win.data.microsoft.com
+0.0.0.0 vortex.data.microsoft.com
+0.0.0.0 watson.live.com
+0.0.0.0 watson.microsoft.com
+0.0.0.0 watson.ppe.telemetry.microsoft.com
+0.0.0.0 watson.telemetry.microsoft.com
+0.0.0.0 watson.telemetry.microsoft.com.nsatc.net
+0.0.0.0 wes.df.telemetry.microsoft.com
+0.0.0.0 win10.ipv6.microsoft.com
+
+(End of text)
+NOW PLACE IT IN THE HOST FILE THAT YOU HAVE OPEN.
+
+4. Hold CTRL and Press 's' to save the file.
+
+If it says it cannot save because another program is using the file you need to go to your Internet security (whichever that is)
+and find the setting that locks your host file. 
+Usually called 'Lock Hosts File' or 'Host File Locking' and 
+uncheck this setting.
+Then you will be able to save your new hosts file.
+
+Thats it your done! You have just blocked microsoft and doubleclick and you will not see any adverts from them anywhere! You will still be able to use hotmail. Your internet speed goes up and your computer will no longer struggle online!
