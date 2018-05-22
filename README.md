@@ -1,6 +1,4 @@
-# FREEWARE
-Freeware Applications from h2ochip.com - Windows 7/10 -CMD Line
-Here are a few of the Applications from my site - h2ochip.com
+# Freeware Applications from h2ochip.com - Windows 7/10 - CMD Line
 
 WatchNET
 A simple and quick way to view your network connections.
