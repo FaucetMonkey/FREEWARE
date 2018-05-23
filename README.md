@@ -32,3 +32,18 @@ and replacing the Alarm.mp3 with your own .mp3 but to do this you must
 rename the new file to Alarm.mp3 or the Application will not know which file
 to play.
 
+Guides
+
+There are two guides 'HostFileGuide' and 'StopCortanaGuide'. 
+
+   Host File Guide
+   
+   A guide to help you block specific sites from your host file, which is the
+   file used by Windows to ascertain where to go when sending data to specific
+   IP addresses.
+   
+   Stop Cortana Guide
+   
+   A guide used to permanently stop the SearchUI.exe application which is 
+   commonly known as Cortana.
+   
