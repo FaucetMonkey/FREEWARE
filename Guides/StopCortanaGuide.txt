@@ -1,0 +1,52 @@
+STOP CORTANA GUIDE
+---------------------------------
+
+Cortana uses the program name 'SearchUI.exe' which reloads itself very quickly after using taskkill.
+This guide will use a command which moves the folder before cortana can load.
+
+1. Click on your 'Start' menu and scoll down to the bottom. Click on the words 'Windows System>'
+    
+2. Right Click on 'Command Prompt' and hover over the word 'More'
+
+3. Click on 'Run as Administrator'
+
+4. Copy all of the text below INCLUDING ONE EXTRA LINE below the text. 
+    The extra line is very important!
+
+
+taskkill /f /im SearchUI.exe
+move %windir%\SystemApps\Microsoft.Windows.Cortana_cw5n1h2txyewy %windir%\SystemApps\Microsoft.Windows.Cortana_cw5n1h2txyewy.000
+
+
+
+5. [don't copy this bit] paste the copied text into the command prompt
+     by right clicking in the Command Prompt window 
+     or by holding 'CTRL' and pressing 'V'.
+
+     If however, you see a blinking cursor at the end of the line.
+     You can try to press 'Return' but you have to be very quick because
+     Cortana reloads itself within a few seconds.
+
+     If this doesn't work - Repeat all steps above - But make sure you copy the extra line!
+
+     You can check by typing   netstat -bfo   into the Administrator Command Prompt window.
+     A list will appear. If you can see the words [SearchUI.exe], then it hasn't worked.
+     if not then Congratulations you stopped Cortana!
+
+
+6. Reboot your PC and Cortana is gone!
+
+
+
+
+Instructions to REPLACE Cortana. (why?? lol)
+
+1. Use steps 1,2 and 3 above. 
+
+2. Copy the text below into the Administrator Command Prompt and press 'Return'.
+
+
+move %windir%\SystemApps\Microsoft.Windows.Cortana_cw5n1h2txyewy.000 %windir%\SystemApps\Microsoft.Windows.Cortana_cw5n1h2txyewy
+
+
+3. [don't copy this bit] Reboot your PC.
